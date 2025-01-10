@@ -27,3 +27,35 @@ h1:focus {
 .darker-border-checkbox.form-check-input {
     border-color: #929292;
 }
+
+/* Basic table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  th, td {
+    padding: 12px;
+    border-bottom: 20px solid #ffffff;
+    text-align: left;
+  }
+
+  /* Color-coded row classes */
+  .late-missing {
+    background-color: #f8d7da; /* light red/pink */
+  }
+  .not-turned-in {
+    background-color: #fff3cd; /* light yellow */
+  }
+  .turned-in {
+    background-color: #d4edda; /* light green */
+  }
+  .course-grade {
+    background-color:  #d6f5ff; /* light green */
+  }
+
+  /* Column headings can be bold, etc. */
+  th {
+    font-weight: bold;
+  }
